@@ -1,8 +1,14 @@
-# Prefer Droidian's packages over mobian's and debian's,
-# even if they're older.
 Package: *
 Pin: release o=Droidian
 Pin-Priority: 1002
+
+Package: *
+Pin: origin "repo.production.furilabs.com"
+Pin-Priority: 1003
+
+Package: *
+Pin: origin "repo.staging.furilabs.com"
+Pin-Priority: 1003
 
 # glibc updates are always nasty since we need to update
 # it on the buildd as well (which is not an automatic
