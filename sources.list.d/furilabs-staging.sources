@@ -1,6 +1,6 @@
 Architectures: amd64 arm64 armhf
 Components: main
 Suites: trixie
-Uris: https://staging.repo.droidian.org/
+Uris: https://repo.staging.furilabs.com/
 Types: deb
 Signed-By: /etc/apt/trusted.gpg.d/droidian.gpg
