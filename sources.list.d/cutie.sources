@@ -1,6 +1,0 @@
-Architectures: amd64 arm64 armhf
-Components: main
-Suites: trixie
-Uris: http://deb.cutie-shell.org/production/
-Types: deb
-Signed-By: /etc/apt/trusted.gpg.d/cutie.gpg

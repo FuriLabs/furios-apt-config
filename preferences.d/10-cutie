@@ -1,5 +1,0 @@
-# Prefer Cutie's packages over Droidian's, mobian's, and debian's,
-# even if they're older.
-Package: *
-Pin: origin "deb.cutie-shell.org"
-Pin-Priority: 1003
