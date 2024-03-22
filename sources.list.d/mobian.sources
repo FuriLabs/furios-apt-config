@@ -1,6 +1,6 @@
 Architectures: amd64 arm64 armhf
 Components: main non-free-firmware
 Suites: trixie
-Uris: http://repo.mobian-project.org/
-Types: deb deb-src
+Uris: https://mobian.furilabs.com/
+Types: deb
 Signed-By: /etc/apt/trusted.gpg.d/mobian.gpg
