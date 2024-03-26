@@ -3,11 +3,11 @@ Pin: release o=Droidian
 Pin-Priority: 1002
 
 Package: *
-Pin: origin "repo.production.furilabs.com"
+Pin: origin "production.repo.furios.io"
 Pin-Priority: 1003
 
 Package: *
-Pin: origin "repo.staging.furilabs.com"
+Pin: origin "staging.repo.furios.io"
 Pin-Priority: 1003
 
 # glibc updates are always nasty since we need to update
