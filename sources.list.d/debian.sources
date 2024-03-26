@@ -1,18 +1,18 @@
 Components: main contrib non-free non-free-firmware
 Suites: trixie
-Uris: https://debian.furilabs.com/
+Uris: https://debian.furios.io/
 Types: deb
 Signed-By: /etc/apt/trusted.gpg.d/debian-archive-bookworm-automatic.asc
 
 Components: main contrib non-free non-free-firmware
 Suites: trixie-updates
-Uris: https://debian.furilabs.com/
+Uris: https://debian.furios.io/
 Types: deb
 Signed-By: /etc/apt/trusted.gpg.d/debian-archive-bookworm-automatic.asc
 
 Components: main contrib non-free non-free-firmware
 Suites: trixie-security
-Uris: http://debian-security.furilabs.com/
+Uris: http://debian-security.furios.io/
 Types: deb
 Signed-By: /etc/apt/trusted.gpg.d/debian-archive-bookworm-security-automatic.asc
 
@@ -20,6 +20,6 @@ Signed-By: /etc/apt/trusted.gpg.d/debian-archive-bookworm-security-automatic.asc
 # from testing
 Components: main
 Suites: unstable
-Uris: http://debian.furilabs.com/
+Uris: http://debian.furios.io/
 Types: deb
 Signed-By: /etc/apt/trusted.gpg.d/debian-archive-bookworm-automatic.asc
