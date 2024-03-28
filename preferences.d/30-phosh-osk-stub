@@ -1,0 +1,7 @@
+Package: squeekboard
+Pin: release *
+Pin-Priority: -1
+
+Package: phosh-osk-stub
+Pin: release *
+Pin-Priority: 1001
