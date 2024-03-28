@@ -1,0 +1,8 @@
+# force pickup osk stub from unstable or trixie
+Package: phosh-osk-stub
+Pin: origin production.repo.furios.io
+Pin-Priority: -1
+
+Package: phosh-osk-stub
+Pin: origin production.repo.furios.io
+Pin-Priority: -1
