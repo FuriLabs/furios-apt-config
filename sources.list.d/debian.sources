@@ -10,12 +10,6 @@ Uris: https://debian.furios.io/
 Types: deb
 Signed-By: /etc/apt/trusted.gpg.d/debian-archive-bookworm-automatic.asc
 
-Components: main contrib non-free non-free-firmware
-Suites: trixie-security
-Uris: http://debian-security.furios.io/
-Types: deb
-Signed-By: /etc/apt/trusted.gpg.d/debian-archive-bookworm-security-automatic.asc
-
 # Unstable is used as a fallback when packages are removed
 # from testing
 Components: main
