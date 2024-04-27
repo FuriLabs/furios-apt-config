@@ -1,0 +1,5 @@
+/usr/share/furios-apt-config/sources.list.d/furilabs.sources /etc/apt/sources.list.d/furilabs.sources
+/usr/share/furios-apt-config/sources.list.d/mobian.sources /etc/apt/sources.list.d/mobian.sources
+/usr/share/furios-apt-config/sources.list.d/debian.sources /etc/apt/sources.list.d/debian.sources
+/usr/share/furios-apt-config/sources.list.d/gst.list /etc/apt/sources.list.d/gst.list
+/usr/share/furios-apt-config/sources.list.d/phone.list /etc/apt/sources.list.d/phone.list

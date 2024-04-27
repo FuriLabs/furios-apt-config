@@ -1,4 +1,4 @@
 /etc/apt/apt.conf.d
 /etc/apt/preferences.d
 /etc/apt/sources.list.d
-/usr/share/droidian-apt-config/sources.list.d
+/usr/share/furios-apt-config/sources.list.d

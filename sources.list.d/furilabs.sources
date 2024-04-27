@@ -3,4 +3,4 @@ Components: main
 Suites: trixie
 Uris: https://production.repo.furios.io/
 Types: deb
-Signed-By: /etc/apt/trusted.gpg.d/droidian.gpg
+Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg

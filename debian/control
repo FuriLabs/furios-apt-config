@@ -1,31 +1,29 @@
-Source: droidian-apt-config
-Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Source: furios-apt-config
+Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
 Section: misc
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/droidian/droidian-apt-config
-Vcs-Git: https://github.com/droidian/droidian-apt-config.git
+Vcs-Browser: https://github.com/furilabs/furios-apt-config
+Vcs-Git: https://github.com/furilabs/furios-apt-config.git
 
-Package: droidian-apt-config
+Package: furios-apt-config
 Architecture: all
 Pre-Depends: apt
 Depends: ${misc:Depends}
-Breaks: hybris-mobian-apt-config (<< 10+git20210324000000)
-Replaces: hybris-mobian-apt-config (<< 10+git20210324000000)
-Description: APT configurations for Droidian
+Description: APT configurations for FuriOS
  This package contains various APT configurations and Pins
- for Droidian.
+ for FuriOS.
 
-Package: droidian-apt-config-staging
+Package: furios-apt-config-staging
 Architecture: all
 Pre-Depends: apt
 Depends: ${misc:Depends}
-Description: APT configurations for Droidian (staging)
+Description: APT configurations for FuriOS (staging)
  This package contains various APT configurations and Pins
- for Droidian.
+ for FuriOS.
  .
- This packages allows to track Droidian-staging.
+ This packages allows to track FuriOS-staging.
 
 Package: droidian-apt-config-krypton
 Architecture: all

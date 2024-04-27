@@ -3,4 +3,4 @@ Components: main
 Suites: trixie
 Uris: https://krypton.furios.io/
 Types: deb
-Signed-By: /etc/apt/trusted.gpg.d/droidian.gpg
+Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
