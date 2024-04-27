@@ -1,0 +1,9 @@
+apt.conf.d/* /etc/apt/apt.conf.d/
+preferences.d/10-mobian /etc/apt/preferences.d/
+preferences.d/10-furilabs /etc/apt/preferences.d/
+preferences.d/20-debian-sid /etc/apt/preferences.d/
+sources.list.d/furilabs.sources /usr/share/furios-apt-config/sources.list.d/
+sources.list.d/debian.sources /usr/share/furios-apt-config/sources.list.d/
+sources.list.d/mobian.sources /usr/share/furios-apt-config/sources.list.d/
+sources.list.d/gst.list /usr/share/furios-apt-config/sources.list.d/
+sources.list.d/phone.list /usr/share/furios-apt-config/sources.list.d/

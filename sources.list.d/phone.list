@@ -1,6 +1,6 @@
 # This file is used to pick-up experimental (or otherwise in-progress) work
 # related to the phone functionality.
-# It gets installed by the droidian-apt-config package and will be removed
+# It gets installed by the furios-apt-config package and will be removed
 # once the updated packages are upstream.
 
 # callaudiod: still WIP

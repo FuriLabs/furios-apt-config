@@ -1,13 +1,15 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: droidian-apt-config
-Source: https://github.com/droidian/droidian-apt-config
+Upstream-Name: furios-apt-config
+Source: https://github.com/furilabs/furios-apt-config
 
 Files: *
 Copyright: 2020 Eugenio "g7" Paolantonio <me@medesimo.eu>
+           2024 Bardia Moshiri <fakeshell@bardia.tech>
 License: BSD-3-clause
 
 Files: debian/*
 Copyright: 2020 Eugenio "g7" Paolantonio <me@medesimo.eu>
+           2024 Bardia Moshiri <fakeshell@bardia.tech>
 License: BSD-3-clause
 
 License: BSD-3-clause
