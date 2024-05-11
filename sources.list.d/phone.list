@@ -5,6 +5,3 @@
 
 # callaudiod: still WIP
 deb http://droidian-callaudiod.repo.furios.io/trixie-droid-0-1-4/ trixie main
-
-# 2023-07-22: gnome-calls 45~alpha.0-4 crashes
-deb http://droidian-gnome-calls.repo.furios.io/trixie-emergency-call-hotfix/ trixie main
