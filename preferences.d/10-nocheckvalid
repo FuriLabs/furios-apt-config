@@ -1,0 +1,2 @@
+# we provide our own mirror of debian. if things go wrong upstream, we need to be able to hold updates
+Acquire::Check-Valid-Until false;
