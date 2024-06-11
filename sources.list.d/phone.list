@@ -11,3 +11,6 @@ deb http://furilabs-glib.repo.furios.io/trixie-no-pidfd/ trixie main
 
 # waydroid: patch to work without IUserMonitor
 deb http://furilabs-waydroid.repo.furios.io/trixie-usermanager/ trixie main
+
+# squeekboard: add support for fractional scaling
+deb http://furilabs-squeekboard.repo.furios.io/trixie-scaling/ trixie main
