@@ -14,3 +14,6 @@ deb http://furilabs-waydroid.repo.furios.io/trixie-usermanager/ trixie main
 
 # squeekboard: add support for fractional scaling
 deb http://furilabs-squeekboard.repo.furios.io/trixie-scaling/ trixie main
+
+# chatty: apply #1369 (contact-provider: let contact list be ready if there are no contacts), fixes notifications from people not in contacts
+deb http://furilabs-chatty.repo.furios.io/trixie-notification/ trixie main
