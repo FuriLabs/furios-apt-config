@@ -17,3 +17,6 @@ deb http://furilabs-squeekboard.repo.furios.io/trixie-scaling/ trixie main
 
 # chatty: apply #1369 (contact-provider: let contact list be ready if there are no contacts), fixes notifications from people not in contacts
 deb http://furilabs-chatty.repo.furios.io/trixie-notification/ trixie main
+
+# gnome-calls: implement USSD
+deb http://furilabs-gnome-calls.repo.furios.io/trixie-ussd/ trixie main
