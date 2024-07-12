@@ -1,0 +1,19 @@
+Components: main contrib non-free non-free-firmware
+Suites: trixie
+Uris: https://debian-staging.furios.io/
+Types: deb
+Signed-By: /etc/apt/trusted.gpg.d/debian-archive-bookworm-automatic.asc
+
+Components: main contrib non-free non-free-firmware
+Suites: trixie-updates
+Uris: https://debian-staging.furios.io/
+Types: deb
+Signed-By: /etc/apt/trusted.gpg.d/debian-archive-bookworm-automatic.asc
+
+# Unstable is used as a fallback when packages are removed
+# from testing
+Components: main
+Suites: unstable
+Uris: http://debian-staging.furios.io/
+Types: deb
+Signed-By: /etc/apt/trusted.gpg.d/debian-archive-bookworm-automatic.asc
