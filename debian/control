@@ -34,3 +34,13 @@ Description: APT configurations for FuriOS (krypton)
  for FuriOS.
  .
  This packages allows to track krypton device repo.
+
+Package: furios-apt-config-debian-staging
+Architecture: all
+Pre-Depends: apt
+Depends: ${misc:Depends}
+Description: APT configurations for FuriOS (debian-staging)
+ This package contains various APT configurations and Pins
+ for FuriOS.
+ .
+ This packages allows to track FuriOS-staging debian repo.
