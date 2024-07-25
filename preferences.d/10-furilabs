@@ -15,6 +15,6 @@ Pin-Priority: 1003
 # process). Pin the major version of glibc here so that
 # it won't trigger libhybris removal should glibc
 # be updated in debian before we're ready
-Package: libc-bin libc-dev-bin libc6 locales libc6-dev
-Pin: version 2.38-*
-Pin-Priority: 1006
+#Package: libc-bin libc-dev-bin libc6 locales libc6-dev
+#Pin: version 2.38-*
+#Pin-Priority: 1006
