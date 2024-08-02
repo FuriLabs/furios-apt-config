@@ -20,3 +20,6 @@ deb http://furilabs-chatty.repo.furios.io/trixie-notification/ trixie main
 
 # gnome-calls: implement USSD
 deb http://furilabs-gnome-calls.repo.furios.io/trixie-ussd/ trixie main
+
+# python3: revert f8abfa33142 (temporary)
+deb http://furilabs-python3.repo.furios.io/trixie-python312-tls/ trixie main
