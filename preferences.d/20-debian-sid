@@ -6,10 +6,10 @@ Pin-Priority: 100
 
 # Debian t64 transition: deprefer t64 packages
 # from sid
-Package: *t64
-Pin: release n=trixie
-Pin-Priority: 500
+#Package: *t64
+#Pin: release n=trixie
+#Pin-Priority: 500
 
-Package: *t64
-Pin: release n=sid
-Pin-Priority: -1
+#Package: *t64
+#Pin: release n=sid
+#Pin-Priority: -1
