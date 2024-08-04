@@ -10,6 +10,10 @@ Package: *
 Pin: origin "staging.repo.furios.io"
 Pin-Priority: 1003
 
+Package: *
+Pin: origin "krypton.furios.io"
+Pin-Priority: 1003
+
 # glibc updates are always nasty since we need to update
 # it on the buildd as well (which is not an automatic
 # process). Pin the major version of glibc here so that
