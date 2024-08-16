@@ -6,9 +6,6 @@
 # callaudiod: still WIP
 deb http://droidian-callaudiod.repo.furios.io/trixie-droid-0-1-4/ trixie main
 
-# glib: build without pidfd
-deb http://furilabs-glib.repo.furios.io/trixie-no-pidfd/ trixie main
-
 # waydroid: patch to work without IUserMonitor
 deb http://furilabs-waydroid.repo.furios.io/trixie-usermanager/ trixie main
 
