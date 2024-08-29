@@ -12,11 +12,8 @@ deb http://furilabs-waydroid.repo.furios.io/trixie-usermanager/ trixie main
 # squeekboard: add support for fractional scaling
 deb http://furilabs-squeekboard.repo.furios.io/trixie-scaling/ trixie main
 
-# chatty: apply #1369 (contact-provider: let contact list be ready if there are no contacts), fixes notifications from people not in contacts
-deb http://furilabs-chatty.repo.furios.io/trixie-notification/ trixie main
-
 # gnome-calls: implement USSD
-deb http://furilabs-gnome-calls.repo.furios.io/trixie-ussd/ trixie main
+deb http://furilabs-gnome-calls.repo.furios.io/trixie-ofono-dial/ trixie main
 
 # python3: revert f8abfa33142 (temporary)
 deb http://furilabs-python3.repo.furios.io/trixie-python312-tls/ trixie main
