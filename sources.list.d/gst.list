@@ -1,3 +1,3 @@
 # FuriOS: use a version of gst-plugins-bad1.0 without the
 # uvch264 module built-in
-deb http://furilabs-gst-plugins-bad1.0.repo.furios.io/trixie-workaround-disable-uvch264/ trixie main
+deb http://furilabs-gst-plugins-bad1.0.repo.furios.io/trixie-workaround-disable-uvch264-1-24-7/ trixie main
