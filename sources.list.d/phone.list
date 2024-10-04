@@ -4,13 +4,13 @@
 # once the updated packages are upstream.
 
 # waydroid: patch to work without IUserMonitor
-deb http://furilabs-waydroid.repo.furios.io/trixie-usermanager/ trixie main
+deb http://furilabs-waydroid.repo.furios.io/trixie-usermanager-exp/ trixie main
 
 # squeekboard: add support for fractional scaling
 deb http://furilabs-squeekboard.repo.furios.io/trixie-scaling/ trixie main
 
-# gnome-calls: implement USSD
-deb http://furilabs-gnome-calls.repo.furios.io/trixie-ofono-dial/ trixie main
+# gnome-calls: implement USSD, emergency numbers, dual sim and ims fixes
+deb http://furilabs-gnome-calls.repo.furios.io/trixie-ofono-dial-47/ trixie main
 
 # python3: revert f8abfa33142 (temporary)
 deb http://furilabs-python3.repo.furios.io/trixie-python312-tls/ trixie main
