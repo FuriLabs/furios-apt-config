@@ -10,7 +10,7 @@ deb http://furilabs-waydroid.repo.furios.io/trixie-usermanager-exp/ trixie main
 deb http://furilabs-squeekboard.repo.furios.io/trixie-scaling/ trixie main
 
 # gnome-calls: implement USSD, emergency numbers, dual sim and ims fixes
-deb http://furilabs-gnome-calls.repo.furios.io/trixie-ofono-dial-47/ trixie main
+deb http://furilabs-gnome-calls.repo.furios.io/trixie-volte/ trixie main
 
 # python3: revert f8abfa33142 (temporary)
 deb http://furilabs-python3.repo.furios.io/trixie-python312-tls/ trixie main
