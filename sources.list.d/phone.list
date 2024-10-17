@@ -14,3 +14,8 @@ deb http://furilabs-gnome-calls.repo.furios.io/trixie-volte/ trixie main
 
 # python3: revert f8abfa33142 (temporary)
 deb http://furilabs-python3.repo.furios.io/trixie-python312-tls/ trixie main
+
+# gnome-authenticator: new version upstream wipes the current database as it changes the backend
+# it also uses glsink for gstreamer which does is not supported by arm devices with gles only (most phones)
+# so it makes it crash and unusable for users. this version is back to 3.32 but with support for scanning TOTP 2fa codes using the camera
+deb http://furilabs-gnome-authenticator.repo.furios.io/trixie-camera-qr/ trixie main
