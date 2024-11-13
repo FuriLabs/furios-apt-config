@@ -1,0 +1,6 @@
+Architectures: amd64 arm64 armhf
+Components: main
+Suites: trixie
+Uris: https://debian-debug.furios.io/
+Types: deb
+Signed-By: /etc/apt/trusted.gpg.d/debian-archive-bookworm-automatic.asc
