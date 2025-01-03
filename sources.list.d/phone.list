@@ -3,8 +3,8 @@
 # It gets installed by the furios-apt-config package and will be removed
 # once the updated packages are upstream.
 
-# waydroid: patch to work without IUserMonitor
-deb http://furilabs-waydroid.repo.furios.io/trixie-usermanager-exp/ trixie main
+# waydroid: patch to replace IUserMonitor and IClipboard with dbus versions
+deb http://furilabs-waydroid.repo.furios.io/trixie-usermanager trixie main
 
 # squeekboard: add support for fractional scaling
 deb http://furilabs-squeekboard.repo.furios.io/trixie-customization/ trixie main
