@@ -6,9 +6,6 @@
 # waydroid: patch to replace IUserMonitor and IClipboard with dbus versions
 deb http://furilabs-waydroid.repo.furios.io/trixie-usermanager trixie main
 
-# squeekboard: add support for fractional scaling
-deb http://furilabs-squeekboard.repo.furios.io/trixie-customization/ trixie main
-
 # gnome-calls: implement USSD, emergency numbers, dual sim and ims fixes
 deb http://furilabs-gnome-calls.repo.furios.io/trixie-volte/ trixie main
 
