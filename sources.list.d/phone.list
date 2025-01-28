@@ -9,6 +9,9 @@ deb http://furilabs-waydroid.repo.furios.io/trixie-gnss/ trixie main
 # gnome-calls: implement USSD, emergency numbers, dual sim and ims fixes
 deb http://furilabs-gnome-calls.repo.furios.io/trixie-volte/ trixie main
 
+# chatty: drop modem number check in mmsd
+deb http://furilabs-chatty.repo.furios.io/trixie-mms/ trixie main
+
 # python3: revert f8abfa33142 (temporary)
 deb http://furilabs-python3.repo.furios.io/trixie-python312-tls/ trixie main
 
