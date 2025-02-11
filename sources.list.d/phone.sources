@@ -4,18 +4,38 @@
 # once the updated packages are upstream.
 
 # waydroid: patch to replace IUserMonitor and IClipboard with dbus versions
-deb http://furilabs-waydroid.repo.furios.io/trixie-gnss/ trixie main
+Types: deb
+URIs: http://furilabs-waydroid.repo.furios.io/trixie-gnss/
+Suites: trixie
+Components: main
+Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
 
 # gnome-calls: implement USSD, emergency numbers, dual sim and ims fixes
-deb http://furilabs-gnome-calls.repo.furios.io/trixie-volte/ trixie main
+Types: deb
+URIs: http://furilabs-gnome-calls.repo.furios.io/trixie-volte/
+Suites: trixie
+Components: main
+Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
 
 # chatty: drop modem number check in mmsd
-deb http://furilabs-chatty.repo.furios.io/trixie-mms/ trixie main
+Types: deb
+URIs: http://furilabs-chatty.repo.furios.io/trixie-mms/
+Suites: trixie
+Components: main
+Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
 
 # python3: revert f8abfa33142 (temporary)
-deb http://furilabs-python3.repo.furios.io/trixie-python312-tls/ trixie main
+Types: deb
+URIs: http://furilabs-python3.repo.furios.io/trixie-python312-tls/
+Suites: trixie
+Components: main
+Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
 
 # gnome-authenticator: new version upstream wipes the current database as it changes the backend
 # it also uses glsink for gstreamer which does is not supported by arm devices with gles only (most phones)
 # so it makes it crash and unusable for users. this version is back to 3.32 but with support for scanning TOTP 2fa codes using the camera
-deb http://furilabs-gnome-authenticator.repo.furios.io/trixie-camera-qr/ trixie main
+Types: deb
+URIs: http://furilabs-gnome-authenticator.repo.furios.io/trixie-camera-qr/
+Suites: trixie
+Components: main
+Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
