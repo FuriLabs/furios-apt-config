@@ -24,9 +24,15 @@ Suites: trixie
 Components: main
 Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
 
-# python3: revert f8abfa33142 (temporary)
+# python3: fixup to work with mali messed up tls
 Types: deb
 URIs: http://furilabs-python3.repo.furios.io/trixie-python312-tls/
+Suites: trixie
+Components: main
+Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
+
+Types: deb
+URIs: http://furilabs-python3.repo.furios.io/trixie-3-13-1/
 Suites: trixie
 Components: main
 Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
