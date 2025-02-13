@@ -3,13 +3,6 @@
 # It gets installed by the furios-apt-config package and will be removed
 # once the updated packages are upstream.
 
-# waydroid: patch to replace IUserMonitor and IClipboard with dbus versions
-Types: deb
-URIs: http://furilabs-waydroid.repo.furios.io/trixie-gnss/
-Suites: trixie
-Components: main
-Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
-
 # gnome-calls: implement USSD, emergency numbers, dual sim and ims fixes
 Types: deb
 URIs: http://furilabs-gnome-calls.repo.furios.io/trixie-volte/
