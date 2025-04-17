@@ -5,7 +5,7 @@
 
 # gnome-calls: implement USSD, emergency numbers, dual sim and ims fixes
 Types: deb
-URIs: http://furilabs-gnome-calls.repo.furios.io/trixie-volte/
+URIs: http://furilabs-gnome-calls.repo.furios.io/trixie-volte-48/
 Suites: trixie
 Components: main
 Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
