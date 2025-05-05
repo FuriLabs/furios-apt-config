@@ -12,7 +12,7 @@ Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
 
 # chatty: drop modem number check in mmsd
 Types: deb
-URIs: http://furilabs-chatty.repo.furios.io/trixie-mms-new/
+URIs: http://furilabs-chatty.repo.furios.io/trixie-mms-0-8-7/
 Suites: trixie
 Components: main
 Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
