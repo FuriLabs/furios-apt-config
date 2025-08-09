@@ -3,4 +3,4 @@ Components: main
 Suites: trixie-debug
 Uris: https://debian-debug-staging.furios.io/
 Types: deb
-Signed-By: /etc/apt/trusted.gpg.d/debian-archive-bookworm-automatic.asc
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
