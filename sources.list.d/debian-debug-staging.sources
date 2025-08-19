@@ -1,6 +1,6 @@
 Architectures: amd64 arm64
 Components: main
-Suites: trixie-debug
+Suites: forky-debug
 Uris: https://debian-debug-staging.furios.io/
 Types: deb
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
