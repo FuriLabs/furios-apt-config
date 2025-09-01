@@ -1,11 +1,11 @@
 Components: main contrib non-free non-free-firmware
-Suites: trixie
+Suites: forky
 Uris: https://debian.furios.io/
 Types: deb
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 
 Components: main contrib non-free non-free-firmware
-Suites: trixie-updates
+Suites: forky-updates
 Uris: https://debian.furios.io/
 Types: deb
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg

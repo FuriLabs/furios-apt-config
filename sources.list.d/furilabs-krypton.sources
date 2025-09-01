@@ -1,6 +1,6 @@
 Architectures: amd64 arm64 armhf
 Components: main
-Suites: trixie
+Suites: forky
 Uris: https://krypton.furios.io/
 Types: deb
 Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
