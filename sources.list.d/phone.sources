@@ -16,12 +16,3 @@ URIs: http://furilabs-chatty.repo.furios.io/trixie-mms-0-8-7/
 Suites: trixie
 Components: main
 Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
-
-# gnome-authenticator: new version upstream wipes the current database as it changes the backend
-# it also uses glsink for gstreamer which does is not supported by arm devices with gles only (most phones)
-# so it makes it crash and unusable for users. this version is back to 3.32 but with support for scanning TOTP 2fa codes using the camera
-Types: deb
-URIs: http://furilabs-gnome-authenticator.repo.furios.io/trixie-camera-qr/
-Suites: trixie
-Components: main
-Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
