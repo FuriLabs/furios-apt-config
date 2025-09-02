@@ -2,6 +2,6 @@
 # uvch264 module built-in
 Types: deb
 URIs: http://furilabs-gst-plugins-bad1.0.repo.furios.io/trixie-workaround-disable-uvch264-1-26-3/
-Suites: trixie
+Suites: forky
 Components: main
 Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
