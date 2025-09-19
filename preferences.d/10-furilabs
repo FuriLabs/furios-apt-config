@@ -3,6 +3,10 @@ Pin: release o=Droidian
 Pin-Priority: 1003
 
 Package: *
+Pin: release o=FuriOS
+Pin-Priority: 1003
+
+Package: *
 Pin: origin "production.repo.furios.io"
 Pin-Priority: 1003
 
