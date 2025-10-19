@@ -1,4 +1,4 @@
-Architectures: amd64 arm64 armhf
+Architectures: amd64 arm64
 Components: main
 Suites: forky
 Uris: https://staging.repo.furios.io/

@@ -1,9 +1,11 @@
+Architectures: amd64 arm64
 Components: main contrib non-free non-free-firmware
 Suites: forky
 Uris: https://debian.furios.io/
 Types: deb
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 
+Architectures: amd64 arm64
 Components: main contrib non-free non-free-firmware
 Suites: forky-updates
 Uris: https://debian.furios.io/
@@ -12,6 +14,7 @@ Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 
 # Unstable is used as a fallback when packages are removed
 # from testing
+Architectures: amd64 arm64
 Components: main
 Suites: unstable
 Uris: http://debian.furios.io/
