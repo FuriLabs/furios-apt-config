@@ -3,10 +3,10 @@
 # It gets installed by the furios-apt-config package and will be removed
 # once the updated packages are upstream.
 
-# gnome-calls: implement USSD, emergency numbers, dual sim and ims fixes
+# gnome-calls: emergency numbers, dual sim, ims, libcallui fixes
 Types: deb
-URIs: http://furilabs-gnome-calls.repo.furios.io/trixie-volte-48/
-Suites: trixie
+URIs: http://furilabs-gnome-calls.repo.furios.io/forky-volte/
+Suites: forky
 Components: main
 Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
 
