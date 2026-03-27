@@ -1,7 +1,0 @@
-# FuriOS: use a version of gst-plugins-bad1.0 without the
-# uvch264 module built-in
-Types: deb
-URIs: http://furilabs-gst-plugins-bad1.0.repo.furios.io/forky-workaround-disable-uvch264-1-26-10/
-Suites: forky
-Components: main
-Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
