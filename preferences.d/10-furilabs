@@ -20,4 +20,4 @@ Pin-Priority: 1003
 
 Package: *
 Pin: origin "krypton-staging.furios.io"
-Pin-Priority: 1003
+Pin-Priority: 1004
