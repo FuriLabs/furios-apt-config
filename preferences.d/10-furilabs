@@ -15,9 +15,9 @@ Pin: origin "staging.repo.furios.io"
 Pin-Priority: 1003
 
 Package: *
-Pin: origin "krypton.furios.io"
+Pin: origin "sync.furios.io"
 Pin-Priority: 1003
 
 Package: *
-Pin: origin "krypton-staging.furios.io"
+Pin: origin "sync-staging.furios.io"
 Pin-Priority: 1004

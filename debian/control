@@ -25,25 +25,49 @@ Description: APT configurations for FuriOS (staging)
  .
  This packages allows to track FuriOS-staging.
 
-Package: furios-apt-config-krypton
+Package: furios-apt-config-sync
 Architecture: all
 Pre-Depends: apt
 Depends: ${misc:Depends}
+Description: APT configurations for FuriOS (sync)
+ This package contains various APT configurations and Pins
+ for FuriOS.
+ .
+ This packages allows to track sync repo.
+
+Package: furios-apt-config-sync-staging
+Architecture: all
+Pre-Depends: apt
+Depends: ${misc:Depends}
+Description: APT configurations for FuriOS (sync-staging)
+ This package contains various APT configurations and Pins
+ for FuriOS.
+ .
+ This packages allows to track sync-staging repo.
+
+Package: furios-apt-config-krypton
+Architecture: all
+Pre-Depends: apt
+Depends: furios-apt-config-sync
 Description: APT configurations for FuriOS (krypton)
  This package contains various APT configurations and Pins
  for FuriOS.
  .
  This packages allows to track krypton device repo.
+ .
+ This is a transitional package that can be removed.
 
 Package: furios-apt-config-krypton-staging
 Architecture: all
 Pre-Depends: apt
-Depends: ${misc:Depends}
+Depends: furios-apt-config-sync-staging
 Description: APT configurations for FuriOS (krypton-staging)
  This package contains various APT configurations and Pins
  for FuriOS.
  .
  This packages allows to track krypton-staging device repo.
+ .
+ This is a transitional package that can be removed.
 
 Package: furios-apt-config-debian-staging
 Architecture: all
