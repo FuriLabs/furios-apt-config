@@ -16,3 +16,18 @@ URIs: http://furilabs-chatty.repo.furios.io/forky-mms-0-8-7/
 Suites: forky
 Components: main
 Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
+
+# systemd: don't fail on any postinst script during upgrades
+Components: main
+Suites: forky
+Uris: http://furilabs-systemd.repo.furios.io/forky-systemd-261-rc3/
+Types: deb
+Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
+
+# LXC7 two step upgrade. no fork, just upgrade path repo
+Architectures: amd64 arm64
+Components: main
+Suites: forky
+Uris: https://lxc.furios.io/
+Types: deb
+Signed-By: /etc/apt/trusted.gpg.d/furilabs.gpg
