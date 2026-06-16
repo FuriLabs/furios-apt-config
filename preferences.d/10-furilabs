@@ -23,5 +23,13 @@ Pin: origin "sync-staging.furios.io"
 Pin-Priority: 1004
 
 Package: *
+Pin: origin "krypton.furios.io"
+Pin-Priority: 1003
+
+Package: *
+Pin: origin "krypton-staging.furios.io"
+Pin-Priority: 1004
+
+Package: *
 Pin: origin "lxc.furios.io"
 Pin-Priority: 1004
